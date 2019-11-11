@@ -1,0 +1,79 @@
+/*
+Theme Name: Newspaper Child
+Theme URI: http://tagdiv.com
+Template: Newspaper
+Author: tagDiv
+Author URI: http://themeforest.net/user/tagDiv/portfolio
+Description: Premium WordPress template, clean and easy to use.
+Tags: black,white,one-column,two-columns,fixed-layout
+Version: 9.0.1.1534234274
+Updated: 2018-08-14 16:11:14
+
+*/
+
+/* Reynold Testing */
+.td-header-style-3 .td-header-main-menu{
+	background-color: #fec340 !important;
+}
+.td-boxed-layout .td-header-style-3 .td-header-menu-wrap{
+	background-color: #fec340 !important;
+}
+.td-header-style-3 .black-menu .sf-menu > .current-menu-item > a, .td-header-style-3 .black-menu .sf-menu > .current-menu-ancestor > a, .td-header-style-3 .black-menu .sf-menu > .current-category-ancestor > a, .td-header-style-3 .black-menu .sf-menu > li > a:hover, .td-header-style-3 .black-menu .sf-menu > .sfHover > a{
+	background-color: #ff8100;
+}
+.block-title > span, .block-title > a, .block-title > label, .widgettitle, .widgettitle::after, .td-trending-now-title, .td-trending-now-wrapper:hover .td-trending-now-title, .wpb_tabs li.ui-tabs-active a, .wpb_tabs li:hover a, .woocommerce .product .products h2:not(.woocommerce-loop-product__title), .td-subcat-filter .td-subcat-dropdown:hover .td-subcat-more {
+	background-color: #fec340;
+}
+.block-title, .wpb_tabs .wpb_tabs_nav, .woocommerce div.product .woocommerce-tabs ul.tabs:before {
+	border-color: #fec340;
+}
+.td_block_template_1 .td-related-title .td-cur-simple-item {
+	background-color: #fec340;
+	color: #fff;
+}
+.td_block_template_1 .td-related-title {
+	border-bottom: 2px solid #fec340;
+}
+
+
+/* 訊頭與發佈時間字體 */
+.td-post-author-name{
+	font-size: 16px;
+}
+
+.entry-date,updated td-module-date{
+	font-size: 16px;
+}
+
+/* 文章標題字體 */
+.td-post-template-2 .td-post-header .entry-title {
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 5px;
+  /* responsive portrait phone */
+}
+/* 移除search */
+.td-search-wrapper {
+	display: none !important;
+}
+#td-top-search {
+	display: none !important;
+}
+
+/* 相關文章 & 更多文章 */
+.relativeArticle{max-width:100%;margin:50px auto; display:none;}
+.relativeArticle .relative-article-title{width:100%;border-bottom:2px solid #fec340;text-align:left;margin-bottom:27px}
+.relativeArticle .relative-article-title h4{padding:8px 12px;background-color:#fec340;font-size:14px;text-align:center;color:#fff;display:inline-block;margin-bottom:0;}
+.relativeArticle .article-row{margin-right:-21px}
+.relativeArticle .article-row .td_mod_related_posts{width:33.3%;float:left;box-sizing:border-box;padding-right:21px}
+.relativeArticle .article-row .td_mod_related_posts .entry-title{font-size:13px;font-weight:400;color:#111}
+.relativeArticle .article-row .td_module_related_posts:hover img{opacity:.8}
+.relativeArticle .article-row .td_module_related_posts:hover .entry_title{color:#fec340}
+.relativeArticle .clearfix { clear: both; }
+	
+@media (max-width: 767px) {
+	.relativeArticle .article-row .td_mod_related_posts { width: 100%; float: none; padding-right: 0; }
+	.relativeArticle .article-row .td-module-image { position: absolute; width: 100px;}
+	.relativeArticle .article-row .item-details { padding-left: 110px; min-height: 70px;margin-bottom: 26px; }
+	.relativeArticle .article-row .td_mod_related_posts .entry-title { font-size: 17px;line-height: 23px; }
+}

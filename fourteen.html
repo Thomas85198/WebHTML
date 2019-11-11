@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+    <style>
+        .tb1{
+            border-collapse:collapse;
+        }
+        th, td{
+            border: 1px solid black;
+        }
+        thead{
+            background-color: red;
+        }
+        tbody{
+            text-align: center;
+        }
+        tbody tr:nth-child(2n){
+            background-color:yellow;
+        }
+        tbody tr:nth-child(2n+1){
+            background-color: purple;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <table class="tb1">
+        <thead>
+            <tr>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

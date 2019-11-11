@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Label</title>
+    <style>
+    label{
+        background-color: green;
+    }   
+    input{
+        background-color: red;
+    }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+        <div>
+            <label for="account">姓名：</label>
+            <input type="text" id="account" name="acoount" value="guest">
+        </div>
+        <div>
+            <label for="pwd">密碼：</label>
+            <input type="password" id="pwd" name="pwd" maxlength="8">
+        </div>
+        <div>
+            <label for="memo">意見：</label>
+            <textarea name="memo" id="memo" cols="30" rows="10"></textarea>
+            <input type="submit" value="送出" disabled>
+        </div>
+        <div>
+            <label for="">
+                <input type="radio" name="gender" value="male">男
+            </label>
+            
+            <input type="radio" name="gender" value="female">女
+        </div>
+        <div>
+            <input type="checkbox" name="hobby" value="music">音樂
+            <input type="checkbox" name="hobby" value="sport">運動
+        </div>
+        <div>
+            <select name="Livingln" id="region">
+            <option value="TPE">台北市</option>
+            </select>
+        </div>
+        <div>
+            <label class="sss">照片</label><input type="password" name="file1">
+        </div>
+
+
+    </form>
+</body>
+
+</html>
